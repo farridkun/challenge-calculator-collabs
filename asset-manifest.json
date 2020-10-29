@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/challenge-calculator-collabs/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/challenge-calculator-collabs/static/js/main.f3ca8f20.chunk.js",
+    "main.js.map": "/challenge-calculator-collabs/static/js/main.f3ca8f20.chunk.js.map",
+    "runtime-main.js": "/challenge-calculator-collabs/static/js/runtime-main.068824b8.js",
+    "runtime-main.js.map": "/challenge-calculator-collabs/static/js/runtime-main.068824b8.js.map",
+    "static/js/2.fb6ce11b.chunk.js": "/challenge-calculator-collabs/static/js/2.fb6ce11b.chunk.js",
+    "static/js/2.fb6ce11b.chunk.js.map": "/challenge-calculator-collabs/static/js/2.fb6ce11b.chunk.js.map",
+    "static/js/3.de3ca047.chunk.js": "/challenge-calculator-collabs/static/js/3.de3ca047.chunk.js",
+    "static/js/3.de3ca047.chunk.js.map": "/challenge-calculator-collabs/static/js/3.de3ca047.chunk.js.map",
+    "index.html": "/challenge-calculator-collabs/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/challenge-calculator-collabs/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.fb6ce11b.chunk.js.LICENSE.txt": "/challenge-calculator-collabs/static/js/2.fb6ce11b.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/challenge-calculator-collabs/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.068824b8.js",
+    "static/js/2.fb6ce11b.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.f3ca8f20.chunk.js"
+  ]
+}
