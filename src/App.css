@@ -51,15 +51,21 @@ button {
 
 .phone img{
     z-index: 2;
-    margin-left: -880px;
-    margin-top: 30px;
+    /* margin-left: -880px;
+    margin-top: 30px; */
     height: 585.25px;
+    top: -335px;
+    left: 221px;
+    position: absolute;
 }
 
 .calcbutton {
     z-index: 3;
-    margin-left: -850px;
-    margin-top: 250px;
+    /* margin-left: -850px;
+    margin-top: 250px; */
+    top: 293px;
+    left: 256px;
+    
     
 }
 
@@ -122,3 +128,11 @@ hr {
 
 }
 
+.mockup-menu img {
+    position: relative;
+    top: 120px;
+    right: -262px;
+    width: 9px;
+    z-index: 7;
+    margin: 1px 24px;
+}
