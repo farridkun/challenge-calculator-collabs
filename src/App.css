@@ -5,6 +5,9 @@
     font-family: 'Roboto';
 }
 
+.mipan {
+    background-color: #1B4332;
+}
 .App-calc img{
     margin-left: 0px;
     margin-top: 152px;
@@ -68,3 +71,22 @@ hr {
     width: 0px;
     color: white;
 }
+
+.calcbutton p {
+    font-size: 20px;
+    /* background-color: white; */
+    position: absolute;
+    bottom: 350px;
+    left: 300px;
+   
+  
+  }
+
+.calcbutton h1 {
+    font-size: 20px;
+    color: rgb(124, 119, 119);
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    width: 400px;
+  }

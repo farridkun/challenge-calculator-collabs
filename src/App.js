@@ -218,7 +218,7 @@ class App extends Component {
 
     render() {
         return (
-            <Container>
+            <Container className>
                 <Row className="justify-content-center"> 
                         <img src={calc} className="App-calc" alt="calc" width="50%" />
                 </Row>
