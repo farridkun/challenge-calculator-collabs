@@ -6,9 +6,7 @@ import calc from './letscalc.png';
 import phone from './phone.png';
 import { Button, Col, Container, Row } from "react-bootstrap";
 import PrevOperationz from "./PrevOperationz";
-import back from './right-arrow-black-triangle.svg'
-import home from './rounded-black-square-shape.svg'
-import optionss from './dry-clean.svg' 
+
 
 class App extends Component {
     constructor(){
@@ -136,11 +134,7 @@ class App extends Component {
                             <Display result={this.state.result} />
                             <TombolAngka onClick={this.onClick} />
                         </div>
-                        <div className = "mockup-menu">
-                            <img src={home} alt = 'home'></img>
-                            <img src={optionss} alt = 'option'></img>
-                            <img src={back} alt = 'back'></img>
-                        </div>
+                   
                     </div>
                 </Row>   
             </div>
