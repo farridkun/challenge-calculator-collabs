@@ -1,0 +1,48 @@
+* {
+  display: flexbox;
+  justify-content: center;
+  background-color: rgb(40,44,52);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.result {
+  height: 200px;
+  background-color: white;
+  width: 400px;
+}
+
+.result h1 {
+  font-size: 20px;
+  margin: 5px 15px;
+  color: rgb(124, 119, 119);
+  background-color: white;
+}
+.result p {
+  font-size: 40px;
+  margin: 5px;
+  background-color: white;
+
+}
+
+
+button {
+  width: 100px;
+  height: 60px;
+  font-size: 30px;
+  background-color: white;
+  border: 0px;
+}
+
+
+hr {
+  width: 0px;
+  color: rgb(40,44,52);
+}
+
+h1 {
+  color: white
+}
