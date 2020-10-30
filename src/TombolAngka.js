@@ -140,34 +140,43 @@ class TombolAngka extends Component {
 
     render() {
         return (
-            <div className="button">
-                <button name="(" onClick={this.clicked}>(</button>
-                <button name="CE" onClick={this.clicked}>CE</button>
-                <button name=")" onClick={this.clicked}>)</button>
-                <button name="C" onClick={this.clicked}>C</button><br/>
+            <div className="button" width="10%">
+                <button className = "operator" name="(" onClick={this.clicked}>(</button>
+                <button className = "operator" name="CE" onClick={this.clicked}>CE</button>
+                <button className = "operator" name=")" onClick={this.clicked}>)</button>
+                <button className = "operator" name="C" onClick={this.clicked}>C</button>
+                <br/>
+                
 
 
-                <button name="1" onClick={this.clicked}>1</button>
-                <button name="2" onClick={this.clicked}>2</button>
-                <button name="3" onClick={this.clicked}>3</button>
-                <button name="+" onClick={this.clicked}>+</button><br/>
+                <button className = "number" name="1" onClick={this.clicked}>1</button>
+                <button className = "number" name="2" onClick={this.clicked}>2</button>
+                <button className = "number" name="3" onClick={this.clicked}>3</button>
+                <button className = "operator" name="+" onClick={this.clicked}>+</button>
+                <br/>
+                
 
 
-                <button name="4" onClick={this.clicked}>4</button>
-                <button name="5" onClick={this.clicked}>5</button>
-                <button name="6" onClick={this.clicked}>6</button>
-                <button name="-" onClick={this.clicked}>-</button><br/>
+                <button className = "number" name="4" onClick={this.clicked}>4</button>
+                <button className = "number" name="5" onClick={this.clicked}>5</button>
+                <button className = "number" name="6" onClick={this.clicked}>6</button>
+                <button className = "operator" name="-" onClick={this.clicked}>-</button>
+                <br/>
+                
 
-                <button name="7" onClick={this.clicked}>7</button>
-                <button name="8" onClick={this.clicked}>8</button>
-                <button name="9" onClick={this.clicked}>9</button>
-                <button name="*" onClick={this.clicked}>x</button><br/>
+                <button className = "number" name="7" onClick={this.clicked}>7</button>
+                <button className = "number" name="8" onClick={this.clicked}>8</button>
+                <button className = "number" name="9" onClick={this.clicked}>9</button>
+                <button className = "operator" name="*" onClick={this.clicked}>x</button>
+                <br/>
+                
 
 
-                <button name="." onClick={this.clicked}>.</button>
-                <button name="0" onClick={this.clicked}>0</button>
-                <button name="=" onClick={this.clicked}>=</button>
-                <button name="/" onClick={this.clicked}>÷</button><br/>
+                <button className = "operator" name="." onClick={this.clicked}>.</button>
+                <button className = "number" name="0" onClick={this.clicked}>0</button>
+                <button className = "operator" name="=" onClick={this.clicked}>=</button>
+                <button className = "operator" name="/" onClick={this.clicked}>÷</button>
+                <br/>
             </div>
         );
     }

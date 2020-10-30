@@ -47,23 +47,11 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React, { Component } from 'react';
-// import './App.css';
 import Display from "./Display"
 import TombolAngka from "./TombolAngka";
+import './App.css';
+import calc from './calc.png';
 
 class App extends Component {
     constructor(){
@@ -135,11 +123,16 @@ class App extends Component {
     render() {
         return (
             <div>
-                <div>
-                    <h1>Kalkulator Sederhana</h1>
-                    <Display result={this.state.result}/>
-                    <TombolAngka onClick={this.onClick}/>
+                <div> 
+                    {/* <h1>Kalkulator Sederhana</h1> */}
+                    <img src={calc} className="App-calc" alt="calc" width="45%" />
+                    <div className="calcbutton">
+                        <Display result={this.state.result}/>
+                        <TombolAngka onClick={this.onClick}/>
+                    </div>
+                    
                 </div>
+               
             </div>
         );
     }
