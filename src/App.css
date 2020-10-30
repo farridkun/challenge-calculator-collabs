@@ -1,4 +1,67 @@
 * {
-    background-color: #ADC16A;
+    background-color: #1B4332;
     font-family: sans-serif;
+}
+
+.App img{
+    left: 537px;
+    top: 152px;
+}
+
+.result {
+    /* width: 504px;
+    height: 248px; */
+    background-color:white;
+}
+
+
+.result p {
+    padding-top: 170px;
+    padding-right: 20px;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    background-color: #1B4332;
+}
+
+button {
+    width: 71px;
+    height: 74px;
+    color: white;
+    background-color: #2D6A4F;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.phone {z-index: 2;}
+
+.calcbutton {
+    z-index: 3;
+    margin-left: -182px;
+    margin-top: 60px;
+    
+}
+
+.phone, .calcbutton{
+    position: absolute;
+}
+
+.operator {
+    background-color: #2D6A4F;
+    font-size: 25px;
+    font-weight: bold;
+    outline-color: violet;
+}
+
+.number {
+    color: #2D6A4F;
+    background-color: #74C69D;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+hr {
+    width: 0px;
+    color: white;
 }
