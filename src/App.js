@@ -119,12 +119,12 @@ class App extends Component {
 
     render() {
         return (
-            <Container >
-                <Row className="mipan justify-content-center"> 
+           <div>
+                <Row className="mipan"> 
                     <div className='letscalc'>
                         <img src={calc} className="lets" alt="calc" />
                     </div>
-                    <div className="justify-content-center">
+                    <div className="mockup">
                         <div className="phone">
                             <img src={phone} className="App-phone" alt="phone" />
                         </div>
@@ -134,11 +134,8 @@ class App extends Component {
                             <TombolAngka onClick={this.onClick} />
                         </div>
                     </div>
-                </Row>
-                
-                
-               
-            </Container>
+                </Row>   
+            </div>
         );
     }
 }
