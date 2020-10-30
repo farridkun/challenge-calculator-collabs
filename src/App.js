@@ -51,7 +51,9 @@ import React, { Component } from 'react';
 import Display from "./Display"
 import TombolAngka from "./TombolAngka";
 import './App.css';
-import calc from './calc.png';
+import calc from './letscalc.png';
+
+
 
 class App extends Component {
     constructor(){
@@ -125,7 +127,8 @@ class App extends Component {
             <div>
                 <div> 
                     {/* <h1>Kalkulator Sederhana</h1> */}
-                    <img src={calc} className="App-calc" alt="calc" width="45%" />
+                    <img src={calc} className="App-calc" alt="calc" width="70%" />
+                   
                     <div className="calcbutton">
                         <Display result={this.state.result}/>
                         <TombolAngka onClick={this.onClick}/>

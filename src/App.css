@@ -1,18 +1,19 @@
 * {
   display: flexbox;
   justify-content: center;
+  background-color: #ADC16A;
 
 }
 
 body {
-  margin-left: 700px;
+  margin-left: 950px;
   padding: 0;
   font-family: sans-serif;
-  background: url('phone.png');
+  /* background: url('phone1.png'); */
+  background-size: cover;
   /* object-fit: cover; */
-  weight: 100%;
-  /* background-color: green; */
-  ;
+  /* weight: 100%; */
+   ;
 }
 
 .result {
@@ -45,7 +46,7 @@ body {
 button {
   width: 124.51px;
   height: 107.91px;
-  font-size: 30px;
+  font-size: 35px;
   color: white;
   background-color: #2D6A4F;
   border: 0px;
@@ -54,7 +55,12 @@ button {
 }
 
 .operator{
-  background-color: red;
+  background-color: #2D6A4F;
+}
+
+.number{
+  color: #2D6A4F;
+  background-color: #74C69D;
 }
 
 hr {
