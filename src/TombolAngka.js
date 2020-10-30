@@ -13,8 +13,8 @@ class TombolAngka extends Component {
             <div className = 'tombols'>
                 <Button variant="success" className = "operator" name="(" onClick={this.clicked}>(</Button>
                 <Button variant="success" className = "operator" name=")" onClick={this.clicked}>)</Button>
-                <Button variant="success" className = "operator" name="CE" onClick={this.clicked}>CE</Button>
-                <Button variant="success" className = "operator" name="C" onClick={this.clicked}><img src={backspace} alt='backspace'></img></Button>
+                <Button variant="success" className = "operator" name="C" onClick={this.clicked}>C</Button>
+                <Button variant="success" className = "operator" name="CE" onClick={this.clicked}><img src={backspace} alt='backspace'></img></Button>
                 <br/>
                 
 
