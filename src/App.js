@@ -58,7 +58,7 @@ class App extends Component {
                     result: this.state.result.slice(0, -1) + button
                 })  
             }
-            else if (this.state.result.length>15){
+            else if (this.state.result.length>11){
                 this.setState({
                     result: this.state.result
                 })
@@ -119,23 +119,24 @@ class App extends Component {
 
     render() {
         return (
-            <Container className>
-                <Row className="justify-content-center"> 
-                    
-                        <img src={calc} className="App-calc" alt="calc" width="50%" />
-                </Row>
-                
-                <Row className="justify-content-center"> 
-                    <div className="phone">
-                        <img src={phone} className="App-phone" alt="phone" /> 
+            <Container >
+                <Row className="mipan justify-content-center"> 
+                    <div className='letscalc'>
+                        <img src={calc} className="lets" alt="calc" />
                     </div>
-                
-                        <div className="calcbutton">
-                        <PrevOperationz prevOps={this.state.prevOperation} />
-                        <Display result={this.state.result}/>
-                            <TombolAngka onClick={this.onClick}/>
+                    <div className="justify-content-center">
+                        <div className="phone">
+                            <img src={phone} className="App-phone" alt="phone" />
                         </div>
+                        <div className="calcbutton">
+                            <PrevOperationz prevOps={this.state.prevOperation} />
+                            <Display result={this.state.result} />
+                            <TombolAngka onClick={this.onClick} />
+                        </div>
+                    </div>
                 </Row>
+                
+                
                
             </Container>
         );

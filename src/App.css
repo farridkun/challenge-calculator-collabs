@@ -1,16 +1,24 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
 
-* {
-    background-color: #1B4332;
+html {
+    background-color: #ADC16A;
     font-family: 'Roboto';
 }
 
-.mipan {
-    background-color: #1B4332;
+#root {
+    background-color: #ADC16A;
+} */
+
+ .letscalc {
+    
+    background-color: #ADC16A;
+    
 }
-.App-calc img{
-    margin-left: 0px;
-    margin-top: 152px;
+.letscalc img{
+    margin-left: 300px;
+    margin-top: 30px;
+    z-index: 4;
+    width: 500px;
 }
 
 .result {
@@ -24,7 +32,6 @@
     font-size: 30px;
     text-align: right;
     color: white;
-    background-color: #1B4332;
 }
 
 button {
@@ -36,17 +43,23 @@ button {
     margin-top: 2px;
 }
 
-.phone {z-index: 2;}
+.phone img{
+    z-index: 2;
+    margin-left: -880px;
+    margin-top: 30px;
+    height: 810px;
+}
 
 .calcbutton {
     z-index: 3;
-    margin-left: -182px;
-    margin-top: 60px;
+    margin-left: -850px;
+    margin-top: 250px;
     
 }
 
 .phone, .calcbutton{
     position: absolute;
+    
 }
 
 .operator {
@@ -70,21 +83,24 @@ hr {
     color: white;
 }
 
-.calcbutton p {
-    font-size: 20px;
+.calcbutton p{
+    font-size: 40px;
     /* background-color: white; */
     position: absolute;
-    bottom: 350px;
-    left: 300px;
+    top: -230px;
+    left: 10px;
+    z-index: 5;
+    height: 40px;
    
   
   }
 
 .calcbutton h1 {
     font-size: 20px;
-    color: rgb(124, 119, 119);
+    color: rgb(182, 179, 179);
     position: absolute;
-    top: 190px;
-    left: 100px;
-    width: 400px;
+    top: -80px;
+    left: 10px;
+    width: 280px;
+    z-index: 6;
   }
