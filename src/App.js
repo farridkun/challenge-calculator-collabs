@@ -52,6 +52,7 @@ import Display from "./Display"
 import TombolAngka from "./TombolAngka";
 import './App.css';
 import calc from './letscalc.png';
+import { Button, Col, Container, Row } from "react-bootstrap";
 
 
 
@@ -124,19 +125,18 @@ class App extends Component {
 
     render() {
         return (
-            <div>
-                <div> 
-                    {/* <h1>Kalkulator Sederhana</h1> */}
-                    <img src={calc} className="App-calc" alt="calc" width="70%" />
-                   
-                    <div className="calcbutton">
-                        <Display result={this.state.result}/>
-                        <TombolAngka onClick={this.onClick}/>
-                    </div>
-                    
-                </div>
+            <Container>
+                <Row className="justify-content-center"> 
+                        <img src={calc} className="App-calc" alt="calc" width="30%" />
+                </Row>
+                <Row className="justify-content-center"> 
+                        <div className="calcbutton">
+                            <Display result={this.state.result}/>
+                            <TombolAngka onClick={this.onClick}/>
+                        </div>
+                </Row>
                
-            </div>
+            </Container>
         );
     }
 }
