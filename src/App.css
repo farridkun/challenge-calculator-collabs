@@ -17,7 +17,7 @@ html {
 .letscalc img{
     margin-left: 500px;
     padding-left: 100px;
-    margin-top: 30px;
+    margin-top: 80px;
     z-index: 4;
     width: 600px;
 }
@@ -74,6 +74,10 @@ button {
     font-weight: bold;
     border-color: #1B4332;
 
+}
+
+.operator img {
+    width: 20px;
 }
 
 .number {
