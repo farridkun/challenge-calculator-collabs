@@ -7,105 +7,6 @@ import phone from './phone.png';
 import { Button, Col, Container, Row } from "react-bootstrap";
 import PrevOperationz from "./PrevOperationz";
 
-
-
-
-// class App extends Component {
-//     constructor(){
-//         super();
-
-//         this.state = {
-//             result: ""
-//         }
-//     }
-
-//     onClick = button => {
-
-//         if(button === "="){
-//             this.calculate()
-//         }
-
-//         else if(button === "C"){
-//             this.reset()
-//         }
-//         else if(button === "CE"){
-//             this.backspace()
-//         }
-
-//         else {
-//             this.setState({
-//                 result: this.state.result + button
-//             })
-//         }
-//     };
-
-
-//     calculate = () => {
-//         let checkResult = ''
-//         if(this.state.result.includes('--')){
-//             checkResult = this.state.result.replace('--','+')
-//         }
-
-//         else {
-//             checkResult = this.state.result
-//         }
-
-//         try {
-//             this.setState({
-//                 // eslint-disable-next-line
-//                 result: (eval(checkResult) || "" ) + ""
-//             })
-//         } catch (e) {
-//             this.setState({
-//                 result: "error"
-//             })
-
-//         }
-//     };
-
-//     reset = () => {
-//         this.setState({
-//             result: ""
-//         })
-//     };
-
-//     backspace = () => {
-//         this.setState({
-//             result: this.state.result.slice(0, -1)
-//         })
-//     };
-
-    
-
-//     render() {
-//         return (
-//             <Container>
-//                 <Row className="justify-content-center"> 
-//                         <img src={calc} className="App-calc" alt="calc" width="50%" />
-//                 </Row>
-                
-//                 <Row className="justify-content-center"> 
-//                     <div className="phone">
-//                         <img src={phone} className="App-phone" alt="phone" /> 
-//                     </div>
-                
-//                         <div className="calcbutton">
-//                         <PrevOperationz prevOps={this.state.prevOperation} />
-//                         <Display result={this.state.result}/>
-//                             <TombolAngka onClick={this.onClick}/>
-//                         </div>
-//                 </Row>
-               
-//             </Container>
-//         );
-//     }
-// }
-
-// export default App;
-
-
-
-
 class App extends Component {
     constructor(){
         super();
@@ -220,6 +121,7 @@ class App extends Component {
         return (
             <Container className>
                 <Row className="justify-content-center"> 
+                    
                         <img src={calc} className="App-calc" alt="calc" width="50%" />
                 </Row>
                 
