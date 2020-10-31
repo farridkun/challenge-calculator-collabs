@@ -20,7 +20,7 @@ class App extends Component {
         };
      
     }
-
+    
     onClick = button => {
         let forbiddenOnes = ['++', '**', '//', '+*', '-*', '-+', '*+', '+/', '/+', '*/', '/*', '-/', '-*', '..', '--','+-', '*-','()']
         if (this.state.prevOperation!==''){
@@ -35,6 +35,8 @@ class App extends Component {
                     this.backspace()
                 } else if (button === 'C'){
                     this.reset()
+                } if (button === "="){
+                    this.calculate()
                 } else {
                     this.setState({
                         result: button,
@@ -79,22 +81,10 @@ class App extends Component {
 
     calculate = () => {
         
-        let checkResult = ''
-        
-        if (this.state.result.includes('--')){
-            checkResult = this.state.result.replace('--','+')
-        }
-
-        else {
-            checkResult = this.state.result
-        }
-
         try {
-            
             this.setState({
-                // eslint-disable-next-line
                 prevOperation: this.state.result,
-                result: (eval(checkResult) || '' ) + ''
+                result: (eval(this.state.result) || '' ) + ''
             })
         } catch (e) {
             this.setState({
@@ -123,7 +113,7 @@ class App extends Component {
     render() {
         return (
            <div>
-                <Row className="mipan"> 
+                <Row> 
                     <div className='letscalc'>
                         <img src={calc} className="lets" alt="calc" />
                     </div>

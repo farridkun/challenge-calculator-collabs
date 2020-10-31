@@ -7,37 +7,64 @@ html {
 
 #root {
     background-color: #2D6A4F;
-} */
+} 
 
- .letscalc {
-    
-    background-color: #2D6A4F;
-    
-}
-.letscalc img{
-    margin-left: 500px;
-    padding-left: 100px;
-    margin-top: 80px;
-    z-index: 4;
-    width: 600px;
+/* Calculator & Phone */
+.mockup {
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-right: 50px;
 }
 
-.tombols {
-    margin-left: -9px;
-    margin-top: -48px;
+.phone {
+    position: absolute;
 }
 
-.result {
-    background-color:white;
+.phone img{
+    z-index: 2;
+    height: 585.25px;
+    top: -335px;
+    left: 221px;
+    position: absolute;
 }
-
 
 .result p {
     padding-top: 170px;
     padding-right: 20px;
-    font-size: 30px;
+    font-size: 300px;
     text-align: right;
     color: white;
+}
+
+.calcbutton {
+    z-index: 3;
+    top: 293px;
+    left: 256px;
+    position: absolute;
+}
+
+.calcbutton p{
+    font-size: 27px;
+    position: absolute;
+    top: -255px;
+    left: 0px;
+    z-index: 5;
+    height: 40px;
+}
+
+.calcbutton h1 {
+    font-size: 16.2px;
+    color: rgb(182, 179, 179);
+    position: absolute;
+    top: -102px;
+    left: 0px;
+    width: 280px;
+    z-index: 6;
+}
+
+.buttons {
+    margin-left: -9px;
+    margin-top: -48px;
 }
 
 button {
@@ -49,39 +76,6 @@ button {
     border-radius: 0px !important;
 }
 
-.phone img{
-    z-index: 2;
-    height: 585.25px;
-    top: -335px;
-    left: 221px;
-    position: absolute;
-}
-
-.calcbutton {
-    z-index: 3;
-    top: 293px;
-    left: 256px;
-    
-    
-}
-
-.phone, .calcbutton{
-    position: absolute;
-    
-}
-
-.operator {
-    background-color: #2D6A4F;
-    font-size: 19.125px;
-    font-weight: bold;
-    border-color: #1B4332;
-
-}
-
-.operator img {
-    width: 20px;
-}
-
 .number {
     color: #2D6A4F;
     background-color: #74C69D;
@@ -90,37 +84,15 @@ button {
     border-color: #1B4332;
 }
 
-hr {
-    width: 0px;
-    color: white;
+.operator {
+    background-color: #2D6A4F;
+    font-size: 19.125px;
+    font-weight: bold;
+    border-color: #1B4332;
 }
 
-.calcbutton p{
-    font-size: 27px;
-    position: absolute;
-    top: -255px;
-    left: 0px;
-    z-index: 5;
-    height: 40px;
-   
-  
-  }
-
-.calcbutton h1 {
-    font-size: 16.2px;
-    color: rgb(182, 179, 179);
-    position: absolute;
-    top: -102px;
-    left: 0px;
-    width: 280px;
-    z-index: 6;
-  }
-
-.mockup {
-    margin-top: 45px;
-    margin-left: 20px;
-    margin-right: 50px;
-
+.operator img {
+    width: 20px;
 }
 
 .mockup-menu img {
@@ -130,4 +102,17 @@ hr {
     width: 9px;
     z-index: 7;
     margin: 1px 24px;
+}
+
+
+/* Let's Calc Image */
+.letscalc { 
+    background-color: #2D6A4F;
+}
+.letscalc img{
+    margin-left: 500px;
+    padding-left: 100px;
+    margin-top: 80px;
+    z-index: 4;
+    width: 600px;
 }

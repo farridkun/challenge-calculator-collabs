@@ -10,7 +10,7 @@ class TombolAngka extends Component {
 
     render() {
         return (
-            <div className = 'tombols'>
+            <div className = 'buttons'>
                 <Button variant="success" className = "operator" name="(" onClick={this.clicked}>(</Button>
                 <Button variant="success" className = "operator" name=")" onClick={this.clicked}>)</Button>
                 <Button variant="success" className = "operator" name="C" onClick={this.clicked}>C</Button>
@@ -43,7 +43,7 @@ class TombolAngka extends Component {
 
 
                 <Button variant="success" className = "operator" name="." onClick={this.clicked}>.</Button>
-                <Button variant="success" className ="number" name="0" onClick={this.clicked}>0</Button>
+                <Button variant="success" className = "number" name="0" onClick={this.clicked}>0</Button>
                 <Button variant="success" className = "operator" name="=" onClick={this.clicked}>=</Button>
                 <Button variant="success" className = "operator" name="/" onClick={this.clicked}>÷</Button>
                 <br/>
