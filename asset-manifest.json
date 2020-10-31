@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/challenge-calculator-collabs/static/css/main.2d502b65.chunk.css",
-    "main.js": "/challenge-calculator-collabs/static/js/main.9c7317e0.chunk.js",
-    "main.js.map": "/challenge-calculator-collabs/static/js/main.9c7317e0.chunk.js.map",
+    "main.js": "/challenge-calculator-collabs/static/js/main.32983e47.chunk.js",
+    "main.js.map": "/challenge-calculator-collabs/static/js/main.32983e47.chunk.js.map",
     "runtime-main.js": "/challenge-calculator-collabs/static/js/runtime-main.b6c61c31.js",
     "runtime-main.js.map": "/challenge-calculator-collabs/static/js/runtime-main.b6c61c31.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/challenge-calculator-collabs/static/css/2.20aa2d7b.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.ffb959a0.chunk.js",
     "static/css/main.2d502b65.chunk.css",
-    "static/js/main.9c7317e0.chunk.js"
+    "static/js/main.32983e47.chunk.js"
   ]
 }
