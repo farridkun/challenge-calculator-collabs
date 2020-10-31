@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/challenge-calculator-collabs/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/challenge-calculator-collabs/static/js/main.f3ca8f20.chunk.js",
-    "main.js.map": "/challenge-calculator-collabs/static/js/main.f3ca8f20.chunk.js.map",
-    "runtime-main.js": "/challenge-calculator-collabs/static/js/runtime-main.068824b8.js",
-    "runtime-main.js.map": "/challenge-calculator-collabs/static/js/runtime-main.068824b8.js.map",
-    "static/js/2.fb6ce11b.chunk.js": "/challenge-calculator-collabs/static/js/2.fb6ce11b.chunk.js",
-    "static/js/2.fb6ce11b.chunk.js.map": "/challenge-calculator-collabs/static/js/2.fb6ce11b.chunk.js.map",
-    "static/js/3.de3ca047.chunk.js": "/challenge-calculator-collabs/static/js/3.de3ca047.chunk.js",
-    "static/js/3.de3ca047.chunk.js.map": "/challenge-calculator-collabs/static/js/3.de3ca047.chunk.js.map",
+    "main.css": "/challenge-calculator-collabs/static/css/main.2d502b65.chunk.css",
+    "main.js": "/challenge-calculator-collabs/static/js/main.9c7317e0.chunk.js",
+    "main.js.map": "/challenge-calculator-collabs/static/js/main.9c7317e0.chunk.js.map",
+    "runtime-main.js": "/challenge-calculator-collabs/static/js/runtime-main.b6c61c31.js",
+    "runtime-main.js.map": "/challenge-calculator-collabs/static/js/runtime-main.b6c61c31.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/challenge-calculator-collabs/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.ffb959a0.chunk.js": "/challenge-calculator-collabs/static/js/2.ffb959a0.chunk.js",
+    "static/js/2.ffb959a0.chunk.js.map": "/challenge-calculator-collabs/static/js/2.ffb959a0.chunk.js.map",
     "index.html": "/challenge-calculator-collabs/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/challenge-calculator-collabs/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.fb6ce11b.chunk.js.LICENSE.txt": "/challenge-calculator-collabs/static/js/2.fb6ce11b.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/challenge-calculator-collabs/static/media/logo.103b5fa1.svg"
+    "static/css/2.20aa2d7b.chunk.css.map": "/challenge-calculator-collabs/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.2d502b65.chunk.css.map": "/challenge-calculator-collabs/static/css/main.2d502b65.chunk.css.map",
+    "static/js/2.ffb959a0.chunk.js.LICENSE.txt": "/challenge-calculator-collabs/static/js/2.ffb959a0.chunk.js.LICENSE.txt",
+    "static/media/backspace.8ca3b6d2.svg": "/challenge-calculator-collabs/static/media/backspace.8ca3b6d2.svg",
+    "static/media/dry-clean.svg": "/challenge-calculator-collabs/static/media/dry-clean.178c7680.svg",
+    "static/media/letscalc.png": "/challenge-calculator-collabs/static/media/letscalc.f96fab08.png",
+    "static/media/phone.png": "/challenge-calculator-collabs/static/media/phone.f31e4e58.png",
+    "static/media/right-arrow-black-triangle.svg": "/challenge-calculator-collabs/static/media/right-arrow-black-triangle.15a428f1.svg",
+    "static/media/rounded-black-square-shape.svg": "/challenge-calculator-collabs/static/media/rounded-black-square-shape.6b9471e1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.068824b8.js",
-    "static/js/2.fb6ce11b.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.f3ca8f20.chunk.js"
+    "static/js/runtime-main.b6c61c31.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.ffb959a0.chunk.js",
+    "static/css/main.2d502b65.chunk.css",
+    "static/js/main.9c7317e0.chunk.js"
   ]
 }
