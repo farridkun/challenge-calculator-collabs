@@ -47,14 +47,14 @@ class App extends Component {
         }
         else if (this.state.prevOperation ===''){
             if (button === "="){
-                this.calculate()
+                return this.calculate()
             }
     
             else if(button === "C"){
-                this.reset()
+                return this.reset()
             }
             else if(button === "CE"){
-                this.backspace()
+                return this.backspace()
             }
 
     
